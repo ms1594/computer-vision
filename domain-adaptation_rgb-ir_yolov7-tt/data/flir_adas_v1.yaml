@@ -1,0 +1,16 @@
+# FLIR ADAS v1 2018 dataset
+
+# dataset
+dataset: FLIR_ADAS_v1
+split: thermal_standard
+
+# train, val, and test dataset
+train: ../data/flir_adas_v1/train/thermal_annotations.txt  # 7859 images
+val: ../data/flir_adas_v1/val/thermal_annotations.txt  # 1360 images
+test: ../data/flir_adas_v1/video/thermal_annotations.txt  # 4166 images
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person', 'bicycle', 'car']

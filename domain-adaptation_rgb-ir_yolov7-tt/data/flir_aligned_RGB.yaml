@@ -1,0 +1,15 @@
+# FLIR Aligned RGB dataset
+
+# dataset
+dataset: FLIR_Aligned
+split: RGB
+
+# train, val dataset
+train: ../data/flir_aligned/annotations_train_RGB.txt
+val: ../data/flir_aligned/annotations_validation_RGB.txt
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person', 'bicycle', 'car']

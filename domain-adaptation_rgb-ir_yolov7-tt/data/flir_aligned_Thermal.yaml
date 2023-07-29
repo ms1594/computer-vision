@@ -1,0 +1,15 @@
+# FLIR Aligned Thermal dataset
+
+# dataset
+dataset: FLIR_Aligned
+split: Thermal
+
+# train, val, and test dataset
+train: ../data/flir_aligned/annotations_train_PreviewData.txt
+val: ../data/flir_aligned/annotations_validation_PreviewData.txt
+
+# number of classes
+nc: 3
+
+# class names
+names: [ 'person', 'bicycle', 'car']
